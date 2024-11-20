@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #ffcc00; /* Cor amarela do Pikachu */
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Estilize cada seção individualmente */
+  #contador {
+    /* Estilização do contador */
+  }
+  
+  /* ... e assim por diante para as outras seções */

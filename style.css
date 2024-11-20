@@ -1,0 +1,159 @@
+@font-face {
+    font-family: pokemon;
+    src: url(Pokemon\ Solid.ttf);}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    letter-spacing: 4px;
+    font-family: pokemon;
+    background-image: linear-gradient(#52ABE3,#E3A652,#627D8E);
+    
+ 
+  }
+                                                
+    
+  
+  
+  
+  
+  #banner {
+    text-align: center;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.616);
+    margin-bottom: 0px;
+    
+  }
+  
+  #banner>img{
+    width: 100%;
+  }
+  #contador {
+   
+    justify-content: center;
+    margin-bottom: 20px;
+    
+    color: rgba(18, 18, 225, 0.768);
+  }
+
+  #cont  {
+
+    background-color: #ffcc00;
+    box-shadow: 5px 2px rgba(0, 0, 0, 0.205);
+    
+
+
+  }
+
+  
+  #galeria {
+    width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+   
+  }
+  body h2{
+    
+    padding: 10px;
+    width: 50%;
+    color: rgba(18, 18, 225, 0.768);
+    background-color: #ffcc00;
+    box-shadow: 2px 2px rgba(11, 11, 0, 0.449);
+    margin: auto;
+    margin-top: 20px;
+  }
+  
+  .imagem {
+    margin: 10px;
+    width: calc(33.33% - 20px);
+    overflow: hidden;
+    }
+  
+  .imagem img{
+    
+   width: 100%;
+   height: auto;
+   transition: transform 0.5s;
+   border: 2px solid #ffcc00;
+    
+    
+    
+  }
+  
+  .imagem:hover img {
+    transform: scale(1.1);
+  }
+  
+  #presentes {
+    
+    padding: 20px;
+    color: rgba(18, 18, 225, 0.768);
+  }
+  
+  #presentes li{
+    padding: 10px;
+    margin: 10px;
+
+    background-color: #ffcc00;
+    width: 20%;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 5px 2px rgba(0, 0, 0, 0.205);
+    
+  }
+
+  #presentes p{
+    color:rgba(18, 18, 225, 0.768);
+  }
+
+  #presentes li:hover{
+    background-color:  rgba(18, 18, 225, 0.768);
+    color: #ffcc00;
+  }
+  footer {
+    background-color: #ffcc00;
+    color: rgba(18, 18, 225, 0.768);
+    padding: 10px;
+  }
+
+  nav {
+    background-color: #ffcc00;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: -20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 20px;
+    font-size: 1.3em;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: rgba(18, 18, 225, 0.768);
+    font-weight: bolder;
+
+}
+
+
+nav li:hover {
+    color: #fff;
+    background-color: white;
+    
+}
+
